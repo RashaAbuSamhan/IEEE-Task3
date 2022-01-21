@@ -1,0 +1,194 @@
+body
+{
+
+text-align: center;
+
+
+}
+.flex-form-1 {
+    padding:10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+.flex-container-1 {
+   
+    padding: 40px;
+justify-content: center;
+        background-color:rgb(33,46,83);
+        color: white;    
+        border-style: solid;
+        border-color: rgb(33,46,83);
+        border-width: 1px;
+        width: 40%;
+        height: 400px;
+        box-shadow: rgba(33,46,83,0.25) 0px 54px 55px,
+         rgba(33,46,83, 0.12) 0px -12px 30px,
+
+         rgba(33,46,83, 0.12) 0px 4px 6px, 
+         rgba(33,46,83, 0.17) 0px 12px 13px, 
+         rgba(33,46,83,0.09) 0px -3px 5px;
+
+
+    
+    }
+
+/*    .flex-color-container {
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-top:40px ;
+        padding-bottom:40px ;
+        
+            background-color:white;
+            border-style: solid;
+            border-color: rgb(33,46,83);
+            border-width: 1px;
+            display: grid;
+grid-template-columns: auto auto auto  ;
+justify-content: center;
+height: 400px;
+width: 40%;
+      }*/
+
+      .flex-color-container {
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-top:40px ;
+        padding-bottom:40px ;
+        
+            background-color:white;
+            border-style: solid;
+            border-color: rgb(33,46,83);
+            border-width: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+        height: 400px;
+      }
+
+      .flex-color-container1 {
+
+        margin-top: -30px;
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-top:40px ;
+        
+            background-color:transparent;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+      }
+      .flex-color-container2 {
+          margin-top: -30px;
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-top:40px ;
+        
+            background-color:transparent;
+           
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+      }
+
+      span {   
+    
+       padding: 8px;
+        border-radius: 50%;
+        
+      }
+
+      .dot1 {
+          margin-right: 20px;
+        height: 90px;
+        width: 90px;
+        background-color: #04B7C8;
+      }
+      .dot2 {
+        margin-right: 20px;
+
+        height: 90px;
+        width: 90px;
+        background-color: #95BF38;
+      }
+      .dot3 {
+        height: 90px;
+        width: 90px;
+        background-color: #E1D867;
+      }
+      .dot4 {
+        margin-right: 20px;
+        height: 90px;
+        width: 90px;
+        background-color: #BA0769;
+      }
+      .dot5 {
+        margin-right: 20px;
+        height: 90px;
+        width: 90px;
+        background-color: #21F645;
+      }
+      .dot6 {
+        height: 90px;
+        width: 90px;
+        background-color: #59430E;
+      }
+
+
+   .flex-button-container {
+
+    margin-top: -60px;
+
+        padding: 20%;
+        
+            background-color:rgb(33,46,83);
+        
+            color: white;    
+            border-style: solid;
+                border-color: rgb(33,46,83);
+                border-width: 1px;
+                display: flex;
+                flex-direction: row;
+
+        
+        }
+
+
+
+        p{
+
+            margin-top: 60px ;                  
+            font-size: 200%;
+            text-align:center;
+            font-weight: 500;
+            
+        }
+
+        button[type= submit] {
+            margin-right:15px ;
+
+            background-color:transparent;
+            color: white;
+  
+        padding: 6px 20px;
+        border-style: solid;
+        border-color: rgb(250, 243, 243);
+        border-width: 1px;
+        cursor: pointer;
+        border-radius: 12px;
+        font-size: 16px;
+        text-align: center;
+
+                
+          }
+          button:hover {
+            background-color: white;
+            color:rgb(33,46,83) ;
+          }
+
+ 
